@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sample-backstage-app
+  description: Sample Backstage App
+  links:
+    - url: https://github.com/n-kostadinov/sample-backstage-app
+      title: Sample Backstage App
+      icon: code
+  annotations:
+    github.com/project-slug: n-kostadinov/sample-backstage-app
+spec:
+  type: service
+  lifecycle: experimental
+  owner: jquad  
