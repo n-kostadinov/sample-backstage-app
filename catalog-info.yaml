@@ -9,6 +9,8 @@ metadata:
       icon: code
   annotations:
     github.com/project-slug: n-kostadinov/sample-backstage-app
+    tektonci/build-namespace: microservice-build
+    tektonci/pipeline-label-selector: 'pipeline.jquad.rocks/git.repository.branch.name=main'
 spec:
   type: service
   lifecycle: experimental
